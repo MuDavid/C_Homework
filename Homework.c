@@ -2,7 +2,7 @@
 
 int bitcheck(int number){
 
-    int new = (number << 4) & 1;
+    int new = (number >> 4) & 1;
 
     if (new == 0){
 
